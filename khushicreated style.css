@@ -1,0 +1,21 @@
+*{
+margin:0;
+padding:0
+}
+#banner{
+    height:300px;
+    background-color:rgb(133, 54, 237);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner h2{
+    font-size: 60px;
+    color: black;
+}
+.round-pic{
+    width:220px;
+    height:280px;
+    margin-left:20px;
+    border-radius: 50%;
+}
