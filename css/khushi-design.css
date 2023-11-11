@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  height: 700px;
+  background-color: rgb(21, 222, 199);
+  width: 100%;
+}
+.inner-box {
+  height: 200px;
+  background-color: rgb(43, 43, 116);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.round-pic {
+  height: 150px;
+  margin-left: 20px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+h1 {
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+  color: aliceblue;
+}
+#menu {
+  background-color: rgb(122, 103, 177);
+  height: 50px;
+  display: flex;
+  padding-left: 250px;
+  align-items: center;
+}
+#menu div {
+  margin-right: 30px;
+  cursor: pointer;
+}
+#menu div:hover {
+  text-decoration: underline;
+  color: yellow;
+}

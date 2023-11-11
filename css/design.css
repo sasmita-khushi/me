@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.outer-box {
+  background-color: yellow;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-box {
+  background-color: black;
+  height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-box p {
+  color: white;
+  font-size: 3em;
+}
