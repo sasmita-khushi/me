@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  color: black;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: coral; */
+}
+#pic {
+  /* background-color: yellow; */
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pic img {
+  width: 500px;
+  margin-right: -100px;
+}
+#content {
+  /* background-color: pink; */
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+.student {
+  /* background-color: aqua; */
+}
+.student h1 {
+  margin: 5px 0;
+}
+.student p {
+  margin: 5px 0;
+}
+#btn-holder {
+  display: flex;
+}
+.btn {
+  width: 250px;
+  background-color: rgb(77, 77, 245);
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.btn:hover {
+  text-decoration: underline;
+}
+
+.student h1.underline {
+  border-bottom: 2px solid rgb(104, 191, 189);
+  width: fit-content;
+  margin-bottom: 20px;
+}
